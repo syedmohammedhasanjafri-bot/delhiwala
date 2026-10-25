@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #F6F4F0;
+  --color-surface: #ECE8E1;
+  --color-ink: #1C1B19;
+  --color-muted: #68635B;
+  --color-wpc: #6E473B;
+  --color-hairline: #DCD6CC;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  *, ::before, ::after {
+    border-radius: 0px !important;
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: #F6F4F0;
+    color: #1C1B19;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F6F4F0;
+    color: #1C1B19;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Hairline Grid and Architectural Blueprint Backgrounds */
+.blueprint-line-x {
+  background-image: linear-gradient(to right, #DCD6CC 1px, transparent 1px);
+  background-size: 24px 100%;
+}
+
+.blueprint-grid {
+  background-image: 
+    linear-gradient(to right, rgba(220, 214, 204, 0.4) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(220, 214, 204, 0.4) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Lenis Recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Subtle architectural hover transitions */
+.arch-transition {
+  transition: all 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom hairline borders */
+.border-blueprint {
+  border-color: #DCD6CC;
+}
+
+.border-blueprint-b {
+  border-bottom: 1px solid #DCD6CC;
+}
+
+.border-blueprint-t {
+  border-top: 1px solid #DCD6CC;
+}
+
+.border-blueprint-r {
+  border-right: 1px solid #DCD6CC;
+}
+
+.border-blueprint-l {
+  border-left: 1px solid #DCD6CC;
+}

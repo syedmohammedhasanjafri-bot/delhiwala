@@ -1,0 +1,46 @@
+# DELHIWALA ELEVATION — Architectural Facade & Exterior Execution Rules
+# Benchmarked against Studio Lotus & Foster + Partners daylight architectural aesthetic.
+
+## MANDATORY SKILL HOOKS & VALIDATION GATES
+- `@ui-ux-pro-max`: Enforce daylight architectural design tokens, 12-column asymmetric grid, zero dark mode, zero gold, 0px border-radius (`rounded-none`).
+- `@humanizer`: Ensure 100% of copy reads like an authentic Indian architectural facade & elevation execution partner. Tone is measured, technically precise, and grounded in on-site reality (no marketing fluff, no generic AI phrasing).
+- `@test-lab.ai` + `@test` + `/browser`: Run automated accessibility, responsive verification (375px mobile, 1440px desktop), interactive tests, and build validation after every phase.
+
+## CORE DESIGN LAWS (NON-NEGOTIABLE)
+1. STRICTLY NO DARK MODE: The entire website exists in pristine daylight architectural travertine & warm stone light mode.
+2. STRICTLY NO YELLOW / GOLD: All accenting uses warm WPC Teak / Terracotta cladding tone (`#6E473B`) and structural charcoal (`#1C1B19`).
+3. ZERO AI TEMPLATE PATTERNS:
+   - NO `rounded-xl`, `rounded-2xl`, `rounded-lg`, `rounded-full` (except technical status dots/avatars). Everything is `rounded-none` (sharp 90-degree architectural cuts).
+   - NO floating blurred shadow boxes (`shadow-2xl` with soft spread). Use crisp `1px solid #DCD6CC` hairline borders.
+   - NO SaaS icon-in-circle grids or generic cartoonish icons. Use architectural glyphs, Lucide line icons, blueprint coordinate markers, and structural numbering (`01`, `02`, `03`).
+   - NO pill badges or gradient tags. Use crisp uppercase monospace tags with hairline borders (`border border-[#DCD6CC] px-2 py-0.5 text-[10px] tracking-widest font-mono`).
+   - NO broken carousels or uncontrolled sliders. Use structured editorial grid layouts and high-performance interactive horizontal filmstrips or galleries.
+
+## EXACT DAYLIGHT ARCHITECTURAL COLOR PALETTE
+- Primary Canvas: `#F6F4F0` (Architectural Travertine / Warm Concrete White)
+- Secondary Surface: `#ECE8E1` (Raw Sandstone / Exterior Plaster)
+- Primary Ink: `#1C1B19` (Structural Steel Charcoal)
+- Muted Notes: `#68635B` (Weathered Stone Grey)
+- WPC Timber Accent: `#6E473B` (Warm WPC Teak / Terracotta Cladding)
+- Hairline Dividers: `1px solid #DCD6CC`
+- Blueprint Focus Lines: `#1C1B19` (Solid architectural frame on focus/active)
+
+## MANDATORY LIBRARIES & INTERACTION PATTERNS
+- **Lenis**: Smooth inertial scroll (`lenis` / `lenis/react`) configured at application root for calm, architectural momentum.
+- **Animate UI & Vengeance UI**: Staggered editorial text reveals, hairline border expansions, and coordinate grids.
+- **Inspira UI & UI Lora**: Architectural hover physics, image scale transforms (`aspect-[16/10]` and `aspect-[4/5]`), technical slide-over drawer for material specs.
+- **Forge UI & Uiverse**: Architectural underline form inputs for project estimation, magnetic rectangular CTA buttons with inverted states.
+
+## PHOTOGRAPHY & ASPECT RATIO DISCIPLINE
+- All facade and site execution images MUST use `rounded-none`.
+- Hero banner & wide elevations: `aspect-[16/10]` or `aspect-[21/9]`.
+- Elevation portraits & detail frames: `aspect-[4/5]`.
+- Every image frame features a subtle `border border-[#DCD6CC]` with technical location coordinates (`LAT/LONG` or project city).
+
+## BRAND IDENTITY & CONTACT ROUTING
+- Brand: **DELHIWALA ELEVATION**
+- Tagline: *"Modern Spaces Need Modern Details — Full Material Supply & Site Execution Across India"*
+- Specialization: Exterior Facade Cladding, Custom WPC Pergolas, HPL Sheets, WPC Louvers & Grand Circular Staircases
+- Execution Footprint: Uttarakhand (Dehradun, Haridwar, Rishikesh, Haldwani), UP (Bareilly, Lucknow, Noida), MP (Indore), Delhi NCR, and Pan-India.
+- Primary Direct Action: WhatsApp Inquiry (`https://wa.me/917830335445`) with pre-filled technical ledger parameters (Role, Material Requirement, City, Scope).
+- Direct Contact: `+91 78303 35445` | `delhiwala.elevation@gmail.com` | `@delhiwala.elevation`
